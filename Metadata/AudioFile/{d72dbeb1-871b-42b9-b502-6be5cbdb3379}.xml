@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{d72dbeb1-871b-42b9-b502-6be5cbdb3379}">
+		<property name="assetPath">
+			<value>Cuervo_B.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.3134240362811793</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0b3b9ee5-59ce-4de1-8030-ca26d1d9745d}</destination>
+		</relationship>
+	</object>
+</objects>

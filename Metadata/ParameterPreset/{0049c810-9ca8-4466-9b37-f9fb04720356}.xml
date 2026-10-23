@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{0049c810-9ca8-4466-9b37-f9fb04720356}">
+		<property name="name">
+			<value>Zona</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fa509edc-cf72-4463-8e9b-91fe9a068472}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1d58dc83-44fd-4ef0-b8ee-6cd7b5eaa53c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1d58dc83-44fd-4ef0-b8ee-6cd7b5eaa53c}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Zona 1</value>
+			<value>Zona 2</value>
+			<value>Zona 3</value>
+			<value>Persecusion</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
