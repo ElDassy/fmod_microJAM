@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{f980fbf9-10e3-4389-b747-970572b44fe6}">
+		<property name="assetPath">
+			<value>enemigo_pasos.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.53027210884353737</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0b3b9ee5-59ce-4de1-8030-ca26d1d9745d}</destination>
+		</relationship>
+	</object>
+</objects>

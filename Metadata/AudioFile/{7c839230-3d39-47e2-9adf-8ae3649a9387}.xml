@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{7c839230-3d39-47e2-9adf-8ae3649a9387}">
+		<property name="assetPath">
+			<value>molino.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>29.762018140589568</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0b3b9ee5-59ce-4de1-8030-ca26d1d9745d}</destination>
+		</relationship>
+	</object>
+</objects>

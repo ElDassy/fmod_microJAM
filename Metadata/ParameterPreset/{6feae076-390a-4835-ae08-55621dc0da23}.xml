@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{6feae076-390a-4835-ae08-55621dc0da23}">
+		<property name="name">
+			<value>Rango_Criatura</value>
+		</property>
+		<relationship name="folder">
+			<destination>{fa509edc-cf72-4463-8e9b-91fe9a068472}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{320e4d5d-4a5a-419c-94d9-930c6bbcc84c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{320e4d5d-4a5a-419c-94d9-930c6bbcc84c}">
+		<property name="maximum">
+			<value>30</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
