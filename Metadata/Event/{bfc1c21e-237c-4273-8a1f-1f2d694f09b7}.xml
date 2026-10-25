@@ -243,7 +243,7 @@
 			<value>94</value>
 		</property>
 		<property name="wetLevel">
-			<value>-12.3000002</value>
+			<value>-27.5</value>
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{1751550b-b20a-4137-9d90-9d41111d27ce}" />

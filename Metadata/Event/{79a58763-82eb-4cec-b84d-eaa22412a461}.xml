@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{42a7ea7c-4eb0-40c4-aa53-120f2936444d}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{5df69da8-69e7-43e9-8904-ca9e05b20795}</destination>
 		</relationship>
@@ -103,7 +106,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9d7f8b47-5452-4d1f-bcd7-433bc5755ed2}">
 		<property name="volume">
-			<value>-2</value>
+			<value>-5.5</value>
 		</property>
 		<property name="name">
 			<value>Caminar</value>

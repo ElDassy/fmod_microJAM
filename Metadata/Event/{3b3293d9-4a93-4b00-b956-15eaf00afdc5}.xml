@@ -113,6 +113,9 @@
 		<property name="length">
 			<value>28.905351473922902</value>
 		</property>
+		<property name="volume">
+			<value>-6.5</value>
+		</property>
 		<property name="maximumTimeBetweenSounds">
 			<value>2000</value>
 		</property>
@@ -123,9 +126,6 @@
 	<object class="SoundScatterer" id="{3321f53d-b23c-4bcc-9389-a24a8f26a07f}">
 		<property name="length">
 			<value>28.905351473922902</value>
-		</property>
-		<property name="volume">
-			<value>6</value>
 		</property>
 		<property name="pitch">
 			<value>17.5</value>
