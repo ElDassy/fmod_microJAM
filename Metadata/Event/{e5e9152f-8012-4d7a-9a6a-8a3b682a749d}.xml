@@ -53,7 +53,7 @@
 			<destination>{fdf755c9-b2ea-4e23-8971-a41f31c0e956}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c25374b6-7e90-4163-ada3-cefebe7aac61}</destination>
+			<destination>{bee57eb5-c912-453c-9a11-c6c1748ec1b6}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3ca5ae54-0246-4ff6-a323-00317e036a56}" />
@@ -90,11 +90,20 @@
 	<object class="MixerBusPanner" id="{fdf755c9-b2ea-4e23-8971-a41f31c0e956}" />
 	<object class="SingleSound" id="{6958d0f5-b935-4413-9dd9-3aac9e22121c}">
 		<property name="length">
-			<value>0.39514739229024975</value>
+			<value>0.32514739229024969</value>
+		</property>
+		<property name="timelockedOffset">
+			<value>0.070000000000000007</value>
 		</property>
 		<property name="volume">
 			<value>-5.5</value>
 		</property>
+		<relationship name="fadeInCurve">
+			<destination>{e63ebacc-0410-4c28-90fa-da1dc2e33a75}</destination>
+		</relationship>
+		<relationship name="fadeOutCurve">
+			<destination>{7be61ec8-2a71-44cd-af08-73a5030711c0}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{6d3b8a02-aa1f-4d3f-8566-7e37ededfa84}</destination>
 		</relationship>
@@ -121,6 +130,22 @@
 	</object>
 	<object class="MixerBusPanner" id="{ee4d6d69-3ebb-4f44-ba7a-e5ecc63f56fe}" />
 	<object class="MixerBusFader" id="{56092d13-825d-47ee-8819-ec3465e8c9c6}" />
+	<object class="FadeCurve" id="{e63ebacc-0410-4c28-90fa-da1dc2e33a75}">
+		<relationship name="startPoint">
+			<destination>{1bcab9e0-0fd7-43ee-95bc-ec7cb5ee580c}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{707977d9-6025-4e4a-8081-2f19a06cccac}</destination>
+		</relationship>
+	</object>
+	<object class="FadeCurve" id="{7be61ec8-2a71-44cd-af08-73a5030711c0}">
+		<relationship name="startPoint">
+			<destination>{b638f317-0abe-4fc4-838f-67f05e41e369}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{5902a4ad-17c1-4e4c-92cc-60e573e6be88}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{f22b31f0-2042-453b-ad46-3d99e634cbb0}">
 		<relationship name="effects">
 			<destination>{e920da90-afd1-4e10-bcc4-524d204dce0d}</destination>
@@ -131,13 +156,57 @@
 	<object class="MixerBusPanner" id="{2af5dcdd-25f7-4436-b22d-39517fab2a4e}" />
 	<object class="MixerBusFader" id="{e536d9b0-ca4f-47ac-baf7-91376fbb80f3}" />
 	<object class="SpatialiserEffect" id="{1964431e-dd14-43b0-8ac9-651d2aae7830}" />
+	<object class="AutomationPoint" id="{1bcab9e0-0fd7-43ee-95bc-ec7cb5ee580c}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{707977d9-6025-4e4a-8081-2f19a06cccac}">
+		<property name="position">
+			<value>0.029999999999999999</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{b638f317-0abe-4fc4-838f-67f05e41e369}">
+		<property name="position">
+			<value>0.27000000000000002</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+		<property name="curveShape">
+			<value>0.25471893</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{5902a4ad-17c1-4e4c-92cc-60e573e6be88}">
+		<property name="position">
+			<value>0.32514739229024969</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{e920da90-afd1-4e10-bcc4-524d204dce0d}" />
 	<object class="ThreeEQEffect" id="{5646a932-f6bc-4ac7-917e-4464832277eb}">
+		<property name="midGain">
+			<value>-12</value>
+		</property>
 		<property name="highGain">
-			<value>7.5</value>
+			<value>2</value>
 		</property>
 	</object>
 	<object class="SFXReverbEffect" id="{4e6849d3-4ac6-41de-b736-349ca8ad8090}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
 		<property name="decayTime">
 			<value>900</value>
 		</property>

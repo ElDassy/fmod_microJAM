@@ -68,7 +68,7 @@
 			<destination>{5241e523-2427-4d5e-8662-e2d569e3561b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c25374b6-7e90-4163-ada3-cefebe7aac61}</destination>
+			<destination>{3e7c5194-39fb-477e-81ee-dfd238c27b2c}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{392bd664-50a4-49bf-9894-a659a5bf46d5}" />
@@ -2771,7 +2771,7 @@
 			<value>175.59138773980817</value>
 		</property>
 		<property name="value">
-			<value>-38</value>
+			<value>-32</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{577a9a15-9e91-450c-8255-20991af0c67f}">
@@ -2779,7 +2779,7 @@
 			<value>215.41127098321343</value>
 		</property>
 		<property name="value">
-			<value>-38</value>
+			<value>-32</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{323590fc-652c-4669-bf6b-9117fc039be0}">

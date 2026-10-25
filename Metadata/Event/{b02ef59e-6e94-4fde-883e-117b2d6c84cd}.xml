@@ -56,7 +56,7 @@
 			<destination>{0cf3b138-02cf-48da-ae94-e71e5329b0b6}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{c25374b6-7e90-4163-ada3-cefebe7aac61}</destination>
+			<destination>{bee57eb5-c912-453c-9a11-c6c1748ec1b6}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{51b061dc-9838-471c-9731-391139b7c41f}" />
@@ -73,7 +73,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{f1c0eeb7-4bae-433a-85a2-b65daaa8542f}">
 		<property name="volume">
-			<value>3</value>
+			<value>6.5</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{d9199255-a97d-4661-a8e6-034c97be1375}</destination>
@@ -99,6 +99,8 @@
 	<object class="MixerBusEffectChain" id="{d9199255-a97d-4661-a8e6-034c97be1375}">
 		<relationship name="effects">
 			<destination>{372af8e6-23be-4bd2-b31b-a9ce2daccc2c}</destination>
+			<destination>{07abc1d9-8bf2-4c0a-94b4-0469b65218cc}</destination>
+			<destination>{d75698f8-2e59-43c2-8525-0761e6705111}</destination>
 			<destination>{6087b433-3dd6-43d2-a3c4-da87015e0a0a}</destination>
 		</relationship>
 	</object>
@@ -107,11 +109,44 @@
 		<property name="startOffset">
 			<value>6.5</value>
 		</property>
+		<property name="volume">
+			<value>4</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{e2ab3290-9f99-48a1-abd0-c1a192d756a5}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{031bf3c2-f65c-4951-bad3-3d55ab1225c5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{67356dd1-5185-4437-bfc0-8d63be28d7f1}" />
 	<object class="MixerBusFader" id="{372af8e6-23be-4bd2-b31b-a9ce2daccc2c}" />
+	<object class="GainEffect" id="{07abc1d9-8bf2-4c0a-94b4-0469b65218cc}">
+		<property name="gain">
+			<value>6</value>
+		</property>
+	</object>
+	<object class="TremoloEffect" id="{d75698f8-2e59-43c2-8525-0761e6705111}">
+		<property name="frequency">
+			<value>0.0799999982</value>
+		</property>
+		<property name="depth">
+			<value>0.984999955</value>
+		</property>
+		<property name="shape">
+			<value>0.0449999981</value>
+		</property>
+		<property name="duty">
+			<value>0.599999964</value>
+		</property>
+	</object>
 	<object class="ObjectSpatialiserEffect" id="{6087b433-3dd6-43d2-a3c4-da87015e0a0a}" />
+	<object class="RandomizerModulator" id="{e2ab3290-9f99-48a1-abd0-c1a192d756a5}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
+		</property>
+		<property name="amount">
+			<value>5</value>
+		</property>
+	</object>
 </objects>

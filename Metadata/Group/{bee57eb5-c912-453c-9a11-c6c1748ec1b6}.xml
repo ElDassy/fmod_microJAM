@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{bee57eb5-c912-453c-9a11-c6c1748ec1b6}">
+		<property name="name">
+			<value>PJ_SOUND</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e93f67a8-71eb-4c1e-89a1-1aa77818c8f6}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{44e92f6d-81e5-42d5-a372-1a057b9d6fb7}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{c25374b6-7e90-4163-ada3-cefebe7aac61}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e93f67a8-71eb-4c1e-89a1-1aa77818c8f6}">
+		<relationship name="effects">
+			<destination>{3a208ab8-4011-4b15-b554-3764d18e6d9b}</destination>
+			<destination>{6952e9ce-11c4-4514-8bfb-b15bc7437711}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{44e92f6d-81e5-42d5-a372-1a057b9d6fb7}" />
+	<object class="MixerBusFader" id="{3a208ab8-4011-4b15-b554-3764d18e6d9b}" />
+	<object class="GainEffect" id="{6952e9ce-11c4-4514-8bfb-b15bc7437711}">
+		<property name="gain">
+			<value>2.5</value>
+		</property>
+	</object>
+</objects>
