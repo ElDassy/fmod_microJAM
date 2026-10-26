@@ -5,7 +5,7 @@
 			<value>Drone_1</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7ee30bb7-e106-4149-9378-1caf1ea7b8b6}</destination>
@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{579eceba-71bf-4f59-a0f1-fef18a577f14}">
+		<property name="volume">
+			<value>4</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{cc7cb158-5dd8-414e-9512-522b2fd3fb25}</destination>
 		</relationship>
@@ -130,6 +133,7 @@
 	<object class="MixerBusEffectChain" id="{cc7cb158-5dd8-414e-9512-522b2fd3fb25}">
 		<relationship name="effects">
 			<destination>{f9e61bbf-f624-47e5-ba3c-5f2a5d6a2941}</destination>
+			<destination>{3d7beb04-2ea5-4f88-84c5-d044f83f1b61}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{2b8587ba-461a-4625-b374-e862a177c346}" />
@@ -150,6 +154,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{a5af4a05-cfd7-4567-89e5-621baa47b5f2}" />
 	<object class="MixerBusFader" id="{f9e61bbf-f624-47e5-ba3c-5f2a5d6a2941}" />
+	<object class="SpatialiserEffect" id="{3d7beb04-2ea5-4f88-84c5-d044f83f1b61}">
+		<property name="panBlend">
+			<value>0.140000001</value>
+		</property>
+		<property name="userStereoSeparation">
+			<value>-140</value>
+		</property>
+		<property name="userStereoAxis">
+			<value>180</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{65f27b10-eb5a-49b7-afca-fa0a6eadc355}">
 		<relationship name="parameter">
 			<destination>{55f85917-f1b6-485f-8c18-0178f4d398f8}</destination>
