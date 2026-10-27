@@ -148,7 +148,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{15836b6a-c3d3-4fbf-b4b2-561d20137b12}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-7.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 2</value>
@@ -210,6 +210,7 @@
 	<object class="MixerBusEffectChain" id="{ae70cfdd-2db7-44bd-a2ae-edaef9e1f5bf}">
 		<relationship name="effects">
 			<destination>{77afb837-afb5-49c0-a892-bf294fea20d7}</destination>
+			<destination>{8b9f00bd-0b00-408c-842b-291f16fdb140}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cf9c130d-b02d-4b70-abbe-1c97001de970}" />
@@ -246,7 +247,14 @@
 			<value>-27.5</value>
 		</property>
 	</object>
-	<object class="SpatialiserEffect" id="{1751550b-b20a-4137-9d90-9d41111d27ce}" />
+	<object class="SpatialiserEffect" id="{1751550b-b20a-4137-9d90-9d41111d27ce}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="minimumExtent">
+			<value>64</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{ca5b1c58-7289-46da-b8ea-d21feca2572b}" />
 	<object class="ThreeEQEffect" id="{11f9d040-8346-4eff-9263-bb37e81c7cfc}">
 		<property name="midGain">
@@ -257,5 +265,13 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{77afb837-afb5-49c0-a892-bf294fea20d7}" />
+	<object class="ThreeEQEffect" id="{8b9f00bd-0b00-408c-842b-291f16fdb140}">
+		<property name="lowGain">
+			<value>-10</value>
+		</property>
+		<property name="midGain">
+			<value>-13.5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{748c02ac-f4b4-4464-a728-c2b11944b3ee}" />
 </objects>
