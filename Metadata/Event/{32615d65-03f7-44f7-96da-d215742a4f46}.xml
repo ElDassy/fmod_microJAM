@@ -164,7 +164,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{26675c17-47c9-4819-a557-0cdbb23b5c1b}" />
 	<object class="MixerBusFader" id="{b33d7f06-6d7e-452f-8e7f-ef39a18418c2}" />
-	<object class="SpatialiserEffect" id="{20387b72-93ce-4546-931f-f05703ae2e1b}" />
+	<object class="SpatialiserEffect" id="{20387b72-93ce-4546-931f-f05703ae2e1b}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="minimumExtent">
+			<value>76</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{0bfcf538-85fb-4715-a26f-4ea9968bf8e8}" />
 	<object class="SFXReverbEffect" id="{acbc6ca3-0195-4ad6-90a0-113db74dd854}">
 		<property name="earlyDelay">
